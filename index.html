@@ -44,11 +44,11 @@
       <section class="row">
         <div class="col-3 bg-success shadow">
           <h2>Gifted</h2>
-          <form onsubmit="">
+          <form onsubmit="app.GiftController.createGift()">
             <label for="">Tag</label>
-            <input class="mb-3" type="text" name="tag" id="tag">
+            <input class="mb-3" type="text" name="tag" id="tag" requirec>
             <label class="" for="">Url</label>
-            <input type="text" name="url" id="url">
+            <input type="text" name="url" id="url" required>
 
             <div class="text-end mt-3">
               <button>Submit</button>
